@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+.container-fluid {
+  margin: 0;
+
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #eed17a, #f07049);
+}
+.number {
+  width: 235px;
+  height: 38px;
+}
+.btn {
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(255, 0, 0);
+  margin-left: 5px;
+  border: 1px solid black;
+}
+
+ul {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px solid black;
+  height: fit-content;
+  width: 450px;
+}
+
+li {
+  font-size: 25px;
+  line-height: 35px;
+  list-style: none;
+  border-bottom: 1px solid rgb(78, 77, 77);
+}
